@@ -1,0 +1,19 @@
+/*
+Name: Md Rafi Al Arabi Bhuiyan
+Email: mraabhuiyan@myseneca.ca
+Student ID: 147307193
+Date: 21/03/2021
+Workshop 7
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*/
+
+Completing this workshop I have a learned a couple new topics of C++ . In the beginning, I have learned the use of algorithm category of the standard template library. There we use vector in our program as well. Here, we used a number of STL functions such as: “for_each(), accumulate(), sort(), any_of() and copy_if() for various purposes. Firstly, sort() function is used to categorized the songs collection by title, album and length and accumulate() function is used for calculating the length of all songs. Next, to check the artist name if it exists or not we used any_of() function. On the other hand, we used for_each() function to display each of the songs from the collection. 
+
+STL algorithms make our programme easier to use by shortening the code, which saves time because implementing the functionality by hand takes longer and requires more coding. As a result, we didn't have to work with loops while implementing the functions, and the complexity was reduced.
+
+ In this case, we can update our sort() function using try and catch formula. In my sense, it would be the prevention to detect the errors.
+
+
+
