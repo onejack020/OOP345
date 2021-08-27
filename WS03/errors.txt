@@ -1,0 +1,49 @@
+In file included from w3_p2_prof.cpp:13:
+PairSummable.h:69:12: error: declaration of template parameter ‘V’ shadows template parameter
+   69 |   template<typename V, typename K>
+      |            ^~~~~~~~
+PairSummable.h:25:11: note: template parameter ‘V’ declared here
+   25 |  template<typename V, typename K>
+      |           ^~~~~~~~
+PairSummable.h:69:24: error: declaration of template parameter ‘K’ shadows template parameter
+   69 |   template<typename V, typename K>
+      |                        ^~~~~~~~
+PairSummable.h:25:23: note: template parameter ‘K’ declared here
+   25 |  template<typename V, typename K>
+      |                       ^~~~~~~~
+PairSummable.h:71:10: error: invalid use of qualified-name ‘sdds::PairSummable<V, K>::m_width’
+   71 |   size_t PairSummable<V, K>::m_width{ 0u };
+      |          ^~~~~~~~~~~~~~~~~~
+PairSummable.h:73:12: error: explicit specialization in non-namespace scope ‘class sdds::PairSummable<V, K>’
+   73 |   template<>
+      |            ^
+PairSummable.h:74:15: error: invalid use of qualified-name ‘sdds::PairSummable<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::initial’
+   74 |   std::string PairSummable<std::string, std::string>::initial = "";
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PairSummable.h:76:12: error: explicit specialization in non-namespace scope ‘class sdds::PairSummable<V, K>’
+   76 |   template<>
+      |            ^
+PairSummable.h:77:7: error: invalid use of qualified-name ‘sdds::PairSummable<int, std::__cxx11::basic_string<char> >::initial’
+   77 |   int PairSummable<int, std::string>::initial = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PairSummable.h:79:12: error: explicit specialization in non-namespace scope ‘class sdds::PairSummable<V, K>’
+   79 |   template<>
+      |            ^
+In file included from w3_p2_prof.cpp:13:
+PairSummable.h:80:143: error: invalid use of incomplete type ‘class sdds::PairSummable<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >’
+   80 |   PairSummable<std::string, std::string>& PairSummable<std::string, std::string>::operator+=(const PairSummable<std::string, std::string>& src) {
+      |                                                                                                                                               ^
+In file included from w3_p2_prof.cpp:13:
+PairSummable.h:27:8: note: declaration of ‘class sdds::PairSummable<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >’
+   27 |  class PairSummable : public Pair<V, K> {
+      |        ^~~~~~~~~~~~
+PairSummable.h: In member function ‘void sdds::PairSummable<V, K>::display(std::ostream&) const’:
+PairSummable.h:65:8: error: missing template arguments before ‘(’ token
+   65 |    Pair(V, K)::display(os);
+      |        ^
+PairSummable.h:65:10: error: expected primary-expression before ‘,’ token
+   65 |    Pair(V, K)::display(os);
+      |          ^
+PairSummable.h:65:13: error: expected primary-expression before ‘)’ token
+   65 |    Pair(V, K)::display(os);
+      |             ^

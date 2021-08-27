@@ -1,0 +1,18 @@
+/*
+Name: Md Rafi Al Arabi Bhuiyan
+Email: mraabhuiyan@myseneca.ca
+Student ID: 147307193
+Date: 07/02/2021
+Workshop 3
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*/
+
+While doing this workshop, I have spent a hard time to get it done as it is much harder than the previous workshops. In this workshop, I have learnt how to create a class template and how to instantiate a template class. Also, I have learnt how to derive a templated class from another templated class as well as specializing of templates were another hardest part on this workshop. An interesting part of this workshop to me is that we did not have to create any .cpp file for the program.
+
+Specialization helps templates to create exceptions .We specialized the operator+=() member for a reason which is this function provides a special meaning for the user defined data types.
+
+On the other hand, we have defined the class variables only because of the objects inside the class are static members.
+
+Short note: sorry! There was not enough time for explaining. It took me a long time to get this workshop done.
