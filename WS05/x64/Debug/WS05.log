@@ -1,0 +1,47 @@
+﻿  Book.cpp
+C:\Users\zaman\source\repos\WS05\Book.h(35,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\zaman\source\repos\WS05\Book.h(35,15): error C2143: syntax error: missing ';' before '&'
+C:\Users\zaman\source\repos\WS05\Book.h(35,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\zaman\source\repos\WS05\Book.h(36,15): error C2327: 'sdds::Book::string': is not a type name, static, or enumerator
+C:\Users\zaman\source\repos\WS05\Book.h(36,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\zaman\source\repos\WS05\Book.h(36,15): error C2143: syntax error: missing ';' before '&'
+C:\Users\zaman\source\repos\WS05\Book.h(36,9): error C2086: 'const int sdds::Book::string': redefinition
+C:\Users\zaman\source\repos\WS05\Book.h(35): message : see declaration of 'sdds::Book::string'
+C:\Users\zaman\source\repos\WS05\Book.h(36,32): error C2238: unexpected token(s) preceding ';'
+C:\Users\zaman\source\repos\WS05\Book.h(41,17): error C2143: syntax error: missing ';' before '&'
+C:\Users\zaman\source\repos\WS05\Book.h(41,17): error C2433: 'sdds::ostream': 'friend' not permitted on data declarations
+C:\Users\zaman\source\repos\WS05\Book.h(41,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\zaman\source\repos\WS05\Book.h(41,52): error C2238: unexpected token(s) preceding ';'
+C:\Users\zaman\source\repos\WS05\Book.h(45,28): error C3861: 'book_desc': identifier not found
+C:\Users\zaman\source\repos\WS05\Book.h(45,28): message : This diagnostic occurred in the compiler generated function 'void sdds::Book::fixSpelling(T)'
+C:\Users\zaman\source\repos\WS05\Book.cpp(25,13): error C2011: 'sdds::Book': 'class' type redefinition
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(49,8): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(49,41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\zaman\source\repos\WS05\Book.cpp(90,3): error C2065: 'b_author': undeclared identifier
+C:\Users\zaman\source\repos\WS05\Book.cpp(91,3): error C2065: 'b_title': undeclared identifier
+C:\Users\zaman\source\repos\WS05\Book.cpp(92,3): error C2065: 'b_country': undeclared identifier
+C:\Users\zaman\source\repos\WS05\Book.cpp(93,3): error C2065: 'b_price': undeclared identifier
+C:\Users\zaman\source\repos\WS05\Book.cpp(94,3): error C2065: 'b_year': undeclared identifier
+C:\Users\zaman\source\repos\WS05\Book.cpp(95,3): error C2065: 'b_desc': undeclared identifier
+C:\Users\zaman\source\repos\WS05\Book.cpp(96,2): warning C4508: 'sdds::{ctor}': function should return a value; 'void' return type assumed
+C:\Users\zaman\source\repos\WS05\Book.cpp(99,27): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(100,27): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(101,26): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(102,26): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(103,54): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.cpp(104,10): error C2027: use of undefined type 'sdds::Book'
+C:\Users\zaman\source\repos\WS05\Book.h(25): message : see declaration of 'sdds::Book'
+  Movie.cpp
+C:\Users\zaman\source\repos\WS05\SpellChecker.h(28,17): error C2079: 'sdds::SpellChecker::m_file' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+  SpellChecker.cpp
+  w5_p2.cpp
+C:\Users\zaman\source\repos\WS05\Book.h(45,28): error C3861: 'book_desc': identifier not found
+C:\Users\zaman\source\repos\WS05\Book.h(45,28): message : This diagnostic occurred in the compiler generated function 'void sdds::Book::fixSpelling(T)'
+  Generating Code...

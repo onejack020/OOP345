@@ -1,0 +1,18 @@
+/*
+Name: Md Rafi Al Arabi Bhuiyan
+Email: mraabhuiyan@myseneca.ca
+Student ID: 147307193
+Date: 21/02/2021
+Workshop 5
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*/
+
+While doing this workshop, I have learned a lot of new things where I got a chance to exercise template and lambda function. There were a lot of problems that occurred in some modules. Specially, spellCheck part was really difficult for me such as books and movie loading. I read the notes a lot of times and tried to learn form online as well.
+
+Between lambda function and a functor, lambda function is more simpler than a functor cause it doesn’t require an class and user helpful whereas a functor requires a class and more complicated in using rather than lambda function.
+
+There are some errors that can be caused for not using exceptions such as the filename issues. If the user inputs the unexpected filename then it can perform a error. In order to duplicate that logic we can put Movie and Book as child classes under a base class.
+
+Default constructor is necessary cause the program data depends on it. If we don’t use it in our program, then it may give us a number of unexpected errors. So, I think it is necessary to keep it for the essence of the program.
