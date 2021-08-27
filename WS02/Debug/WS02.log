@@ -1,0 +1,6 @@
+﻿  StringSet.cpp
+C:\Users\zaman\source\repos\WS02\StringSet.cpp(35,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\zaman\source\repos\WS02\StringSet.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
+  w2_p2.cpp
+  Generating Code...
+  WS02.vcxproj -> C:\Users\zaman\source\repos\WS02\Debug\WS02.exe

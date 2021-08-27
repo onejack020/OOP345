@@ -1,0 +1,17 @@
+/*
+Name: Md Rafi Al Arabi Bhuiyan
+Email: mraabhuiyan@myseneca.ca
+Student ID: 147307193
+Date: 01/02/2021
+Workshop 2
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*/
+
+
+Completing this workshop, I learned a lot of new things such as declaring move operator and move constructor as well as defining it under a class and how to input file in the program for retrieving the records that is used in the 1 argumnet constructor function. Beside, the use of new library function(std::chrono) and how it helps to run the program. Basically, the motives of move constructor and operator are different. Firstly, move constructor helps an ‘rvalue’ object to be moved into an lvalue without copying such as we used this strategy in our program for the newly defined object(str). Basically, rvalue has no memory locations into the RAM while lvalue is always pointed to a memory location. In another words, rvalue is a temporary object.  On the other hand, move operator transfers a temporary object to another existing object. In our program (no_strings) is an existing object and using the move assignment operator we transferred the temporary object (str) to the (no_strings) object. 
+
+As we can see from the output copy operations took much time than move operations. Generally, copying object or resources within a program create new spaces so that it needs in memory as well and takes time to create space and shift the resources over this space. In case of move operation it doesn’t need to create any spaces for the resources it is transferring. In this way, it becomes a time consuming process.  
+
+ 

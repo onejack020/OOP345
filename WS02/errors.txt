@@ -1,0 +1,54 @@
+Workstation.cpp: In constructor ‘sdds::Workstation::Workstation(const string&)’:
+Workstation.cpp:9:61: error: binding reference of type ‘std::string&’ {aka ‘std::__cxx11::basic_string<char>&’} to ‘const string’ {aka ‘const std::__cxx11::basic_string<char>’} discards qualifiers
+    9 |  Workstation::Workstation(const std::string& str) : Station(str),
+      |                                                             ^~~
+In file included from Workstation.h:8,
+                 from Workstation.cpp:2:
+Station.h:28:11: note:   initializing argument 1 of ‘sdds::Station::Station(std::string&)’
+   28 |   Station(std::string&);
+      |           ^~~~~~~~~~~~
+Workstation.cpp: In member function ‘bool sdds::Workstation::getIfCompleted(sdds::CustomerOrder&)’:
+Workstation.cpp:54:25: error: ‘__gnu_cxx::__alloc_traits<std::allocator<sdds::CustomerOrder>, sdds::CustomerOrder>::value_type’ {aka ‘class sdds::CustomerOrder’} has no member named ‘isOrderFilled’; did you mean ‘isItemFilled’?
+   54 |    if (m_orders.front().isOrderFilled())
+      |                         ^~~~~~~~~~~~~
+      |                         isItemFilled
+LineManager.cpp: In member function ‘bool sdds::LineManager::run(std::ostream&)’:
+LineManager.cpp:109:21: error: ‘class sdds::Workstation’ has no member named ‘runProcess’
+  109 |    AssemblyLine[i]->runProcess(os);
+      |                     ^~~~~~~~~~
+LineManager.cpp:125:22: error: ‘class sdds::Workstation’ has no member named ‘moveOrder’
+  125 |     AssemblyLine[i]->moveOrder();
+      |                      ^~~~~~~~~
+ms3_prof.cpp: In function ‘int main(int, char**)’:
+ms3_prof.cpp:85:4: error: ‘pending’ was not declared in this scope
+   85 |    pending.push_back(std::move(order));
+      |    ^~~~~~~
+ms3_prof.cpp:92:38: error: no matching function for call to ‘sdds::LineManager::LineManager(char*&, std::vector<sdds::Workstation*>&)’
+   92 |   LineManager lm(argv[4], theStations);
+      |                                      ^
+In file included from ms3_prof.cpp:19:
+LineManager.h:21:3: note: candidate: ‘sdds::LineManager::LineManager(const string&, std::vector<sdds::Workstation*>&, std::vector<sdds::CustomerOrder>&)’
+   21 |   LineManager(const std::string&, std::vector<Workstation*>&, std::vector<CustomerOrder>&);
+      |   ^~~~~~~~~~~
+LineManager.h:21:3: note:   candidate expects 3 arguments, 2 provided
+LineManager.h:12:8: note: candidate: ‘sdds::LineManager::LineManager(const sdds::LineManager&)’
+   12 |  class LineManager
+      |        ^~~~~~~~~~~
+LineManager.h:12:8: note:   candidate expects 1 argument, 2 provided
+LineManager.h:12:8: note: candidate: ‘sdds::LineManager::LineManager(sdds::LineManager&&)’
+LineManager.h:12:8: note:   candidate expects 1 argument, 2 provided
+ms3_prof.cpp:93:6: error: ‘class sdds::LineManager’ has no member named ‘display’
+   93 |   lm.display(cout);
+      |      ^~~~~~~
+ms3_prof.cpp:99:6: error: ‘class sdds::LineManager’ has no member named ‘linkStations’
+   99 |   lm.linkStations();
+      |      ^~~~~~~~~~~~
+ms3_prof.cpp:100:6: error: ‘class sdds::LineManager’ has no member named ‘display’
+  100 |   lm.display(cout);
+      |      ^~~~~~~
+ms3_prof.cpp:118:23: error: ‘completed’ was not declared in this scope
+  118 |  for (const auto& o : completed)
+      |                       ^~~~~~~~~
+ms3_prof.cpp:120:23: error: ‘incomplete’ was not declared in this scope
+  120 |  for (const auto& o : incomplete)
+      |                       ^~~~~~~~~~

@@ -1,0 +1,2 @@
+C:\Users\zaman\source\repos\WS02\Debug\WS02.exe
+C:\Users\zaman\source\repos\WS02\Debug\WS02.pdb
