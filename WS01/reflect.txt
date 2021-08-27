@@ -1,0 +1,24 @@
+/*
+Name: Md Rafi Al Arabi Bhuiyan
+Email: mraabhuiyan@myseneca.ca
+Student ID: 147307193
+Date: 24/01/2021
+
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*/
+
+
+
+
+
+
+
+While practicing this workshop, i have learned a couple of new things that are new to me. Firstly, the linkages of both internal and external that we declared in our "event.h" and later on defined it in "event.cpp" file. Secondly, recieving peogram arguments from the command line was another interesting part. Beside, i made it a review of dynamic memory lesson here in this workshop again that i learnt from OOP244 and it helped me doing this workshop mostly whereas memory leaks was the critical problem i have faced in this workshop. Here, i referred a global variable using external linkage that is already declared in another file in this program so that it can update its new value every time the function get called. As I mentioned before, memory leaks was my hardest part in this journey and I tried several way such as allocating and deallocating memory to fix it. Overall, I think this workshop taught me a good lesson rather than reading notes and other articles. 
+
+This program contains an external linkage which is under “event.h” and it defined in “event.cpp” and also it is used a global variable in this program as well. If i didn’t do it so it might get me error while compiling and it could be a undefined variable. Beside, there is a use of internal linkage in the display to guard our “event” class from duplication  in a translation unit. 
+
+Static variables are maintains its visibility under all across its own translation unit and in this program it becomes helpful by updating its value each time the function get called.
+
+For the event class, I kept a description variable(evnt_desc) to store any lengths of string value. Also, to make sure my program memory leaks freed, I myself tried and spent the most of my time. First I tried to change my destructors implementation where I tried to deallocate memory under if statement but it didn’t worked. In my case, it was happening memory loss and after spending a couple of hours I used to deallocate memory in the set() function before If or else statement and finally, it get worked.
